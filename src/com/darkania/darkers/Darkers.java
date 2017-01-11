@@ -76,6 +76,7 @@ public class Darkers extends JavaPlugin {
 	public static Scoreboard scoreboard;
 	@Override
 	public void onEnable() {
+	getServer();	
 		YmlBaneados.getInstance().setup(this);
 		YmlMensajes.getInstance().setup(this);
 		YmlMuteados.getInstance().setup(this);
