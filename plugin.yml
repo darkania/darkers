@@ -1,0 +1,117 @@
+name: Darkers
+main: com.darkania.darkers.Darkers
+version: 1.0.0
+author: zlSrJoseS2lz
+commands:
+    jobs:
+        description: Recibe el mensaje sobre trabajos.
+        usage: 
+    colores:
+        description: Ver los formatos de colores que hay.
+        usage:  
+    say:
+        description: Manda un mensaje con sonido
+        usage: 
+    helpop:
+        description: Manda mensaje de ayuda/duda/problema
+        usage: 
+    limpiar:
+        description: Limpiar el chat
+        usage: 
+    msg:
+        description: Manda un mensaje privado a un usuario
+        usage: 
+    m:
+        description: Manda un mensaje privado a un usuario
+        usage: 
+    r:
+        description: Responde si tienes un mensaje privado
+        usage: 
+    darkers:
+        description: Ver los comandos del darkers
+        usage: 
+    curar:
+        description: Llena la vida de un usuario
+        usage: 
+    difundir:
+        description: Envia un mensaje con sonido
+        usage: 
+    craftear:
+        description: Envia un mensaje con sonido
+        usage: 
+    socialspy:
+        description: Espia los mensajes de los usuarios
+        usage: 
+    publico:
+        description: Cambia tu modo de chat a publico
+        usage:  
+    privado:
+        description: Cambia tu modo de chat a privado
+        usage: 
+    ofertas:
+        description: Cambia tu modo de chat a ofertas
+        usage: 
+    tppos:
+        description: Teletransportate a un lugar
+        usage: 
+    hat:
+        description: Ponte un sombrero
+        usage: 
+    plugins:
+        description: Ve los plugins de darkania
+        usage: 
+    suicide:
+        description: Suicidate
+        usage: 
+    enderchest:
+        description: Envia un mail
+        usage: 
+    sethealth:
+        description: Cambia los corazones que tienes
+        usage: 
+    vanish:
+        description: Ocultate de los usuarios
+        usage: 
+    ban:
+        description: Banea a un jugador
+        usage: 
+    unban:
+        description: Desbanea a un jugador
+        usage: 
+    kick:
+        description: Kickea a un jugador 
+        usage: 
+    renombrar:
+        description: Renombra el item que tienes en la mano
+        usage: 
+    setspawn:
+        description: Cambia el punto de spawn del servidor
+        usage: 
+    ping:
+        description: Muestra tu ping
+        usage: 
+    desactivar:
+        description: Muestra tu ping
+        usage: 
+    spawn:
+        description: teletransportate al spawn del servidor
+        usage: 
+    mantenimiento:
+        description: activa o desactiva el mantenimiento
+        usage:
+    relinchar:
+        description: activa o desactiva el mantenimiento
+        usage:
+permissions:
+    darkers.*:
+        description: Give all permissions.
+        default: false
+    Darkers.prueba:
+        description: Puedes usar el comando /jobs
+        default: false
+    Darkers.say:
+        description: Puedes usar el comando /say
+        default: false
+    Darkers.staff:
+        description: Solamente para staffs de darkania
+        default: false

@@ -1,0 +1,135 @@
+#-------------------------------------------------------------------------#
+#------------Darkers  v1.5 hecho por zlSrJoseS2lz para Darkania-----------#
+#--------------Variables: %usuario%, %servidor% y %mensaje%.--------------#
+#----------El intervalo de tiempo de AutoGuardado es en MINUTOS-----------#
+#----------El intervalo de tiempo de AutoReinicio es en SEGUNDOS----------#
+#-------------------------------------------------------------------------#
+Mantenimiento: false
+
+MsgList:
+  Mantenimiento:
+  - '&4Darkania 1.8.8 Survival (MANTENIMIENTO)'
+  - '======================================'
+  - '&aJugador por el momento estamos trabajando'
+  - '&apara ofrecer un mejor survival a nuestra'
+  - '&acomunidad, dentro de poco estara listo'
+  - '&apara que puedas ingresar cualquier informacion'
+  - '&aque necesites o si deceas comentar algo'
+  - '&ael foro de la comunidad esta disponible.'
+  - '======================================'
+  - '&aCORREO: info@darkania.com'
+  - '&aWEB: http://www.darkania.com/'
+  - '======================================'
+  Normal:
+  - '&2Darkania 1.8.8 Survival'
+  - '======================================'
+  - '&aHola bienvenido a darkania un servidor'
+  - '&aSurvival no premium con muchas aventuras'
+  - '&ay retos que estan creados para hacer una'
+  - '&aatmosfera muy divertida rodeado de amigos'
+  - '&aVen y descubre todo lo que este servidor'
+  - '&atiene para ofrecer a su comunidad.'
+  - '======================================'
+  - '&aCORREO: info@darkania.com'
+  - '&aWEB: http://www.darkania.com/'
+  - '======================================'
+General:
+  SinPermisos: '&cNo tienes permisos para usar este comando'
+  Lenguaje: ES
+
+AutoGuardado:
+  Intervalo: 40
+AutoReinicio:
+  Intervalo: 14400
+  T-MSG-1: 12600
+  C-MSG-1: 'say &cReiniciando servidor en &630 &cminutos'
+  T-MSG-2: 13500
+  C-MSG-2: 'say &cReiniciando servidor en &615 &cminutos'
+  T-MSG-3: 13800
+  C-MSG-3: 'say &cReiniciando servidor en &65 &cminutos'
+  T-MSG-4: 14390
+  C-MSG-4: 'say &6Reiniciando servidor...'
+
+Chat:
+  Nick-Admin: '&4%usuario%'
+  Nick-GM: '&2%usuario%'
+  Nick-Policia: '&b%usuario%'
+  Nick-Arquitecto: '&9%usuario%'
+  Nick-Helper: '&c%usuario%'
+  Nick-Gamma: '&6%usuario%'
+  Nick-Beta: '&a%usuario%'
+  Nick-Alpha: '&e%usuario%'
+  Nick-Experto: '&7%usuario%'
+  Nick-Veterano: '&7%usuario%'
+  Nick-Novato: '&f%usuario%'
+  Forzado: false
+  FormatoPublico: '%usuario% &l>&f> %mensaje% &4!!'
+  FormatoOfertas: '%usuario% &l>&f> &2[Ofertas]&r %mensaje% &2!!'
+  FormatoPrivado: '%usuario% &l>&f> %mensaje%'
+  
+Baneos:
+  Prefix: '&6&lDarkania%n%&6%n%&4&lFuiste baneado :(%n%&6&lMorivo: %motivo% %n%&l%n%&6&lPara ser desbaneado:%n%&6&lDona al servidor: &a&ndarkania.com/Tienda%n%&6&lPide pruebas en el foro: &a&ndarkania.com'
+
+jobs:
+  PrimeraLinea: '&2---> &aAqui en &0&lDarkania &a no &2<---'
+  SegundaLinea: '&2---> &ahay ni habra trabajos, para &2<-------' 
+  TercerLinea: '&2---> &aque puedas disfrutar de &2<-------------'
+  CuartaLinea: '&2---> &aun survival 100% puro. &2<---------------'
+  
+Colores:
+  PrimeraLinea: '$6------[$fColores de Darkania$6]------'
+  SegundaLinea: '$f&0 - $0Texto        $r$f&b - $bTexto'
+  TercerLinea: '$f&1 - $1Texto        $r$f&c - $cTexto'
+  CuartaLinea: '$f&2 - $2Texto        $r$f&d - $dTexto'
+  QuintaLinea: '$f&3 - $3Texto        $r$f&e - $eTexto'
+  SextaLinea: '$f&4 - $4Texto        $r$f&f - $fTexto'
+  SeptimaLinea: '$f&5 - $5Texto        $r$f&k - $kTexto'
+  OctavaLinea: '$f&6 - $6Texto        $r$f&l - $lTexto'
+  NovenaLinea: '$f&7 - $7Texto        $r$f&m - $mTexto'
+  DecimaLinea: '$f&8 - $8Texto        $r$f&n - $nTexto'
+  DecimaPrimeraLinea: '$f&9 - $9Texto        $r$f&o - $oTexto'
+  DecimaSegundaLinea: '$f&a - $aTexto        $r$f&r - $rTexto'
+  
+Say:
+  Sonido: BLOCK_NOTE_PLING
+  Prefix: '&e%usuario% &a&l>&f>'
+  ColorDeMensaje: GOLD
+
+Difundir:
+  Sonido: ENTITY_PLAYER_BURP
+  Prefix: '&e%usuario% &a&l>&f>'
+  ColorDeMensaje: GREEN
+  
+Mensajes:
+  Quit: '&2-->>&r %usuario% &csalio de Darkania. &2<<--'
+  Join:
+    Usuario: '&2&l-->> %usuario% &aentro a Darkania. &2&l<<--'
+
+#Mensajes cuando muere el jugador por algún mob
+MensajesAlMorir:
+  Zombie: '&cUn zombie mato a %usuario%'
+  Pigman: '&cUn pigman mato a %usuario%'
+  Creeper: '&cUn creeper mato a %usuario%'
+  Esqueleto: '&cUn esqueleto mato a %usuario%'
+  EsqueletoWither: '&cUn esqueletoWither mato a %usuario%'
+  PezDePlata: '&cUn silverfish mato a %usuario%'
+  Enderman: '&cUn enderman mato a %usuario%'
+  Blaze: '&cUn blaze mato a %usuario%'
+  Araña: '&cUna araña mato a %usuario%'
+  DragonEnder: '&cUn EnderDragon mato a %usuario%'
+  Ghast: '&cUn ghast mato a %usuario%'
+  GolemDeHierro: '&cUn ironGolem mato a %usuario%'
+  CuboDeMagma: '&cUn Magmacube mato a %usuario%'
+  Slime: '&cUn slime mato a %usuario%'
+  Bruja: '&cUna bruja mato a %usuario%'
+  Lobo: '&cUn lobo mato a %usuario%'
+  DisparoDeBlaze: '&cUn blaze disparo a %usuario%'
+  DisparoDeEsqueleto: '&cUn esqueleto disparo a %usuario%'
+  DisparoDeGhast: '&cUn ghast disparo a %usuario%'
+
+Extras:
+  Libro1:
+  - '&8&lArco del Wither%n%%n%&6Este arco es muy especial ya que con el puedes hacer cosas inimaginables'
+  - '&6'
+  - '&6&lXD'
+  - '&6&lUPPSS'
