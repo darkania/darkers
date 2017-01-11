@@ -1,6 +1,3 @@
-//actualizo esta linea automaticamente en eclipse?
-
-
 package com.darkania.darkers;
 
 import java.util.ArrayList;
